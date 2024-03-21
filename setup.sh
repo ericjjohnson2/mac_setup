@@ -14,7 +14,7 @@ softwareupdate --install-rosetta
 
 # Brew Cask Version 
 # brew install cask
-# brew tap -y homebrew/cask-versions
+# brew tap homebrew/cask-versions
 
 # Install Fonts
 # brew tap homebrew/cask-fonts
@@ -27,7 +27,7 @@ softwareupdate --install-rosetta
 #source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Install Anaconda 
-# brew install -y anaconda
+# brew install anaconda
 # conda init zsh
 # conda deactivate
 # conda update conda
@@ -46,10 +46,10 @@ softwareupdate --install-rosetta
 #pip install lxml
 #brew install openjdk
 #conda install -c conda-forge openjdk=11
-#pip install -y pyspark==3.4.0
+#pip install pyspark==3.4.0
 #conda install -c conda-forge pyarrow
 #conda install -c conda-forge fastparquet
-#%env SPARK_LOCAL_HOSTNAME=localhost
+export SPARK_LOCAL_HOSTNAME=localhost
 #conda update --all
 #conda install --c conda-forge pygwalker
 #pip install --upgrade jupyterlab ipywidgets
@@ -70,6 +70,7 @@ softwareupdate --install-rosetta
 #conda install conda-forge::bokeh
 #brew install graphviz
 #conda install conda-forge::r-base
+brew install julia
 
 # Replace the zshrc file
 #mkdir ~/dev
@@ -102,3 +103,7 @@ brew install --cask  microsoft-office
 brew install --cask eclipse-installer
 brew install --cask google-drive
 brew install --cask tableau-public
+brew install ffmpeg
+brew install imagemagick
+brew install wget
+brew install telenet

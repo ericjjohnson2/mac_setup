@@ -1,0 +1,8 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "julia.enableTelemetry": false,
+    "files.autoSave": "onWindowChange",
+    "settingsSync.ignoredSettings": [
+        
+    ]
+}
