@@ -73,7 +73,7 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions shellfirm zsh-syntax-highlighting copypath git-lfs marktext vscode web-search macos)
+plugins=(git zsh-autosuggestions copypath git-lfs marktext vscode web-search macos git-open textmate zsh-syntax-highlighting)
 
 # **************************************************************************************
 # **************************************************************************************
@@ -124,3 +124,6 @@ unset __conda_setup
 
 # *************************************TESTING************************************
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlighting/highlighters
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/ericjohnson/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
