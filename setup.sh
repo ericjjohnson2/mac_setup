@@ -66,7 +66,9 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 pip install flask_cors
 conda install pytorch::pytorch
 conda install anaconda::tensorflow
-conda install conda-forge::seaborn
+# For seaborn can update to anything after .13 to resolve issues with heatmaps
+# Conda was installing .12 by default. Info at https://github.com/mwaskom/seaborn/issues/3478
+conda install seaborn=0.13.2
 pip install altair
 pip install altair_viewer
 conda install conda-forge::joblib
