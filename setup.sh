@@ -105,19 +105,21 @@ brew install ffmpeg
 # source ~/.zshrc
 
 # Misc
-brew install  --cask google-chrome
+brew install --cask maccy
 brew install --cask shottr
-brew install  --cask libreoffice
-brew install  --cask vlc
-brew install chrome-devtools
+brew install --cask  cleanmymac
+brew install --cask bartender
+brew install --cask  adobe-creative-cloud
 brew install homebrew/cask-versions/firefox-developer-edition
 brew install --cask brave-browser
+brew install  --cask google-chrome
+brew install chrome-devtools
 brew install chromedriver
-brew install --cask  microsoft-office
-brew install --cask  adobe-creative-cloud
-brew install --cask  cleanmymac
-brew install --cask textmate
-brew install --cask bartender
 brew install --cask google-drive
+brew install --cask  microsoft-office
+brew install  --cask libreoffice
+brew install  --cask vlc
+brew install --cask textmate
 brew install --cask tableau-public
 brew install imagemagick
+
