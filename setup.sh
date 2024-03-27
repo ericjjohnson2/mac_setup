@@ -65,7 +65,10 @@ pip install --upgrade gw-dsl-parser==0.1.8a0 duckdb==0.9.2 segment-analytics-pyt
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 pip install flask_cors
 conda install pytorch::pytorch
-conda install anaconda::tensorflow
+pip install tensorflow
+pip install keras_tuner
+pip install xgboost
+pip install pydot
 # For seaborn can update to anything after .13 to resolve issues with heatmaps
 # Conda was installing .12 by default. Info at https://github.com/mwaskom/seaborn/issues/3478
 conda install seaborn=0.13.2
@@ -110,6 +113,7 @@ brew install --cask shottr
 brew install --cask  cleanmymac
 brew install --cask bartender
 brew install --cask  adobe-creative-cloud
+brew install --cask todoist
 brew install homebrew/cask-versions/firefox-developer-edition
 brew install --cask brave-browser
 brew install  --cask google-chrome
